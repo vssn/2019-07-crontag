@@ -24,7 +24,7 @@ export default class Hero extends Component<{}, { showObserveInput: boolean }> {
               onClick={() => this.toggleObserveInput()}
               className="section"
             >
-              <img alt="crontag" src="media/crontag.png" />
+              <img alt="crontag" src="/media/crontag.png" />
             </section>
           ) : (
             <section className="section">
