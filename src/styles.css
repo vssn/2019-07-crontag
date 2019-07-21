@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.hero--app {
+  background: url("media/header.png") no-repeat;
+  background-position: center top;
+  background-size: contain;
+  height: 100vh;
+  min-height: 600px;
+}
+
+.hero--app .hero-body {
+  margin-top: 32vw;
+}
+
+.hero .title,
+.hero .subtitle {
+  color: white;
+}
