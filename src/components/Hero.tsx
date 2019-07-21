@@ -28,8 +28,8 @@ export default class Hero extends Component<{}, { showObserveInput: boolean }> {
             </section>
           ) : (
             <section className="section">
-              <div class="container">
-                <div class="notification">
+              <div className="container">
+                <div className="notification">
                   <div className="container">
                     <div className="field">
                       <div className="control">

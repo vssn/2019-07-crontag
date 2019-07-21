@@ -9,9 +9,9 @@ export default class HeroTrends extends Component {
           <div className="notification">
             <h2 className="title is-6">Crontags im Trend</h2>
             <div className="buttons">
-              <a class="button is-link">Parlamentswahlen</a>
-              <a class="button is-link">Bundesliga</a>
-              <a class="button is-link">Mondlandung</a>
+              <button className="button is-link">Parlamentswahlen</button>
+              <button className="button is-link">Bundesliga</button>
+              <button className="button is-link">Mondlandung</button>
             </div>
           </div>
         </div>
