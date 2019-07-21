@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import HeroTrends from "./HeroTrends";
 
 export default class Hero extends Component<{}, { showObserveInput: boolean }> {
-  constructor(props) {
+  constructor(props: object) {
     super(props);
 
     this.state = {
